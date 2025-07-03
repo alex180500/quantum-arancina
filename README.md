@@ -1,10 +1,10 @@
 <div align="center">
-<picture>
+<a href="https://romancino.me/"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/quantum-arancina-white.png">
   <source media="(prefers-color-scheme: light)" srcset="./assets/quantum-arancina-black.png">
   <img alt="Quantum Arancina logo for light and dark mode." src="">
-</picture>
-<br>
+</picture></a>
+<br><br>
 <a href="https://www.apache.org/licenses/LICENSE-2.0"><img alt="Code License" src="https://img.shields.io/github/license/alex180500/quantum-arancina?label=code%20license"></a>
 &nbsp;&nbsp;&nbsp;
 <a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Content License" src="https://img.shields.io/badge/content-CC%20BY%204.0-blue?label=content%20license"></a>

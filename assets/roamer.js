@@ -1,71 +1,79 @@
-document.addEventListener("DOMContentLoaded", () => {
+// resources/roamer.js
+window.addEventListener("load", () => {
   const img = document.getElementById("roamer");
-  // detect your nav—change selector if needed
+  // select your nav bar/header
   const nav = document.querySelector("nav") || document.querySelector("header");
   let navBottom = nav ? nav.getBoundingClientRect().bottom : 0;
 
-  let vw = window.innerWidth,
-      vh = window.innerHeight;
+  // Random start direction
+  const angle      = Math.random() * 2 * Math.PI;
+  let dx           = Math.cos(angle);
+  let dy           = Math.sin(angle);
+  const speed      = 100;      // px/sec
+  let rotation     = 0;        // degrees
+  const angularSpeed = 90;     // deg/sec
 
-  // Initial position & vector
-  let x = Math.random() * (vw - img.clientWidth),
-      y = Math.random() * (vh - img.clientHeight);
-  const angle = Math.random() * 2 * Math.PI;
-  let dx = Math.cos(angle),
-      dy = Math.sin(angle);
-  const speed = 100;        // px/sec
+  // Pick a random initial pos once image dimensions are known
+  let x, y;
+  function resetPosition() {
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    const w  = img.clientWidth;
+    const h  = img.clientHeight;
+    x = Math.random() * (vw - w);
+    y = Math.random() * (vh - h);
+  }
+  resetPosition();
 
-  // Rotation
-  let rotation       = 0;    // degrees
-  const angularSpeed = 90;   // deg/sec
-
-  function step(timestamp) {
-    if (!step.last) step.last = timestamp;
-    const dt = (timestamp - step.last) / 1000;
-    step.last = timestamp;
+  function step(ts) {
+    if (!step.last) step.last = ts;
+    const dt = (ts - step.last) / 1000;
+    step.last = ts;
 
     // Move
     x += dx * speed * dt;
     y += dy * speed * dt;
 
-    // Bounce off left/right
+    // Recompute bounds each frame
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    const w  = img.clientWidth;
+    const h  = img.clientHeight;
+
+    // Bounce left/right
     if (x <= 0) {
       x = 0;
       dx *= -1;
-    }
-    if (x >= vw - img.clientWidth) {
-      x = vw - img.clientWidth;
+    } else if (x >= vw - w) {
+      x = vw - w;
       dx *= -1;
     }
 
-    // Bounce off navbar top
+    // Bounce off navbar
     if (y <= navBottom) {
       y = navBottom;
       dy *= -1;
     }
-    // Bounce off bottom
-    if (y >= vh - img.clientHeight) {
-      y = vh - img.clientHeight;
+    // Bounce bottom
+    else if (y >= vh - h) {
+      y = vh - h;
       dy *= -1;
     }
 
     // Rotate
     rotation = (rotation + angularSpeed * dt) % 360;
 
-    // Apply
     img.style.transform = `translate(${x}px, ${y}px) rotate(${rotation}deg)`;
 
     requestAnimationFrame(step);
   }
 
-  // Recalculate dimensions (viewport & nav) on resize
-  window.addEventListener("resize", () => {
-    vw = window.innerWidth;
-    vh = window.innerHeight;
-    navBottom = nav
-      ? nav.getBoundingClientRect().bottom
-      : 0;
-  });
+  // On resize or orientation change, recalc navbar line
+  function recalcNav() {
+    navBottom = nav ? nav.getBoundingClientRect().bottom : 0;
+  }
+  window.addEventListener("resize",  recalcNav);
+  window.addEventListener("orientationchange", recalcNav);
 
   requestAnimationFrame(step);
 });

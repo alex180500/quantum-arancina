@@ -17,7 +17,7 @@ If you have questions feel free to [open an issue](https://github.com/alex180500
 ## License
 
 - The blog source code, build scripts, and _any code content that you can find in any blog post or other page_ are licensed under [Apache-2.0 License](./LICENSE). 
-- The blog content, including the _text, images and other kind of media that is not code_, is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">.
+- The blog content, including the _text, images and other kind of media that is not code_, is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) [<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" width="15"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" width="15">](https://creativecommons.org/licenses/by/4.0/).
 
 **This means that you can use all the code both in the source and in the blog posts freely for academic, personal, or commercial purposes!**
 

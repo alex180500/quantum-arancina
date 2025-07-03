@@ -1,2 +1,19 @@
-# quantum-arancina
-My personal blog (WIP)
+<div align="center">
+<img src="assets/quantum-arancina-black.png"><br><br>
+<img alt="Code License" src="https://img.shields.io/github/license/alex180500/quantum-arancina?label=code%20license">
+<img alt="Content License" src="https://img.shields.io/badge/content-CC%20BY%204.0-blue?label=content%20license">
+</div><br>
+
+My personal blog, created using [Quarto](https://quarto.org/) and hosted on [GitHub Pages](https://pages.github.com/).
+
+## License
+
+The blog source code, build scripts, **and any code content that you can find in any blog post** are licensed under [Apache-2.0 License](./LICENSE).
+
+> [!NOTE]
+> This means that you can use all the code both here and in the blog posts freely for academic, personal, or commercial purposes!
+
+The blog content, including the text, images and other kind of media that is not code, is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-height:1em"> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-height:1em">. A copy of the content license is available in [LICENSE-CONTENT](./LICENSE-CONTENT).
+
+> [!NOTE]
+> If you want to repost my content or just copy some of it you can do it freely, as long as you give me credit by citing me or linking my blog [`https://romancino.me/`](https://romancino.me/).

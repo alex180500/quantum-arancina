@@ -1,0 +1,9 @@
+#roamer {
+  position: fixed;
+  width: 120px;           
+  top: 0;
+  left: 0;                
+  pointer-events: none;   
+  will-change: transform; 
+  transform-origin: center center;
+}

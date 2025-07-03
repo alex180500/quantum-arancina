@@ -1,0 +1,11 @@
+---
+title: "404 - Arancina Not Found"
+include-in-header:
+    - file: assets/roamer.html
+---
+
+**You slowly fall into the Quantum Arancina void...**
+
+Sorry, the page you’re looking for doesn’t exist.
+
+<img id="roamer" src="assets/arancina.png"/>

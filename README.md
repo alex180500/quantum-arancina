@@ -14,6 +14,10 @@ My personal blog, created using [Quarto](https://quarto.org/) and hosted on [Git
 
 If you have questions feel free to [open an issue](https://github.com/alex180500/quantum-arancina/issues/new/choose) or to contact me via email at [`alessandro.romancino@community.unipa.it`](mailto:alessandro.romancino@community.unipa.it).
 
+> [!IMPORTANT]
+> ARANCINA IS FEMALE
+> _L'ARANCINA È FIMMINA_
+
 ## License
 
 - The blog source code, build scripts, and _any code content that you can find in any blog post or other page_ are licensed under [Apache-2.0 License](./LICENSE). 

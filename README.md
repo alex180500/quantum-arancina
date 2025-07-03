@@ -18,7 +18,7 @@ My personal blog, created using [Quarto](https://quarto.org/) and hosted on [Git
 
 The blog source code, build scripts, **and any code content that you can find in any blog post or other page** are licensed under [Apache-2.0 License](./LICENSE). _This means that you can use all the code both here and in the blog posts freely for academic, personal, or commercial purposes!_
 
-The blog content, including the text, images and other kind of media that is not code, is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" height="1em"> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" height="1em">. A copy of the content license is available in [LICENSE-CONTENT](./LICENSE-CONTENT).
+The blog content, including the text, images and other kind of media that is not code, is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" height="100"> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" height="100">. A copy of the content license is available in [LICENSE-CONTENT](./LICENSE-CONTENT).
 
 > [!NOTE]
 > If you want to repost my content or just copy some of it you can do it freely, as long as you give me credit by citing me or linking my blog [`https://romancino.me/`](https://romancino.me/).

@@ -12,10 +12,11 @@
 
 My personal blog, created using [Quarto](https://quarto.org/) and hosted on [GitHub Pages](https://pages.github.com/). It is a place where I share my thoughts, ideas, and projects related to quantum computing, programming, and other topics that interest me.
 
-If you have questions feel free to [open an issue](https://github.com/alex180500/quantum-arancina/issues/new/choose) or to contact me via email at [`alessandro.romancino@community.unipa.it`](mailto:alessandro.romancino@community.unipa.it).
+If you have questions feel free to [open an issue](https://github.com/alex180500/quantum-arancina/issues/new/choose) or to send me an email [`alessandro.romancino@community.unipa.it`](mailto:alessandro.romancino@community.unipa.it).
 
 > [!IMPORTANT]
 > ARANCINA IS FEMALE
+>
 > _L'ARANCINA È FIMMINA_
 
 ## License

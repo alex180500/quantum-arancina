@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://romancino.me/"><picture>
+<a href="https://romancino.com/"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/quantum-arancina-white.png">
   <source media="(prefers-color-scheme: light)" srcset="./assets/quantum-arancina-black.png">
   <img alt="Quantum Arancina logo for light and dark mode." src="">
@@ -29,4 +29,4 @@ This blog uses a dual-license approach to ensure clarity for both the source cod
 **This means that you can use all the code both in the source and in the blog posts freely for academic, personal, or commercial purposes!**
 
 > [!NOTE]
-> You are welcome to repost or copy the written content and images, provided you give appropriate credit. Just include a link to the original blog post or [`https://romancino.me/`](https://romancino.me/).
+> You are welcome to repost or copy the written content and images, provided you give appropriate credit. Just include a link to the original blog post or [`https://romancino.com/`](https://romancino.com/).
